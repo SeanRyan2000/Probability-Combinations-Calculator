@@ -10,3 +10,7 @@ z = the probability of success
 example:
 if 40% of people have facebook and you randomly select 20, what is the probability that 
 atleast 7 of the selected people will have facebook
+
+Here you would input calculate(20, 7, 0.4);
+
+I have used a recursive algorithm for the factorial function
