@@ -23,9 +23,12 @@ public class Main {
 		ans = sum + ans;
 		System.out.println("PROBABILITY OF IT OCCURING ATLEAST " + numOfTests + " TIMES ="  +ans);
 		
+		DecimalFormat df = new DecimalFormat("0.####");
+		df.setRoundingMode(RoundingMode.HALF_UP);
 		
+		double d = ans;
 		
-		System.out.println(ans);
+		System.out.println("The answer rounded to 4 decimal places is " + df.format(d));
 		
 	}
 	
